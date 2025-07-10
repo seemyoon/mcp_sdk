@@ -1,0 +1,17 @@
+{
+  "servers": [
+    {
+      "name": "GitHub API",
+      "transport": {
+        "type": "stdio",
+        "command": "python",
+        "args": [
+          "github_server.py"
+        ],
+        "env": {
+          "GITHUB_TOKEN": "your_github_token"
+        }
+      }
+    }
+  ]
+}
